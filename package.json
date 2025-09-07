@@ -1,0 +1,52 @@
+{
+  "name": "civictrust",
+  "version": "1.0.0",
+  "description": "A promotional site for CivicTrust DApp - building trust in digital civic engagement",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "analyze": "cross-env ANALYZE=true next build",
+    "export": "next export"
+  },
+  "keywords": [
+    "dapp",
+    "blockchain",
+    "civic",
+    "trust",
+    "web3",
+    "ethereum",
+    "nextjs"
+  ],
+  "author": "CivicTrust Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^15.5.2",
+    "next": "^15.5.2",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "cross-env": "^7.0.3",
+    "prettier": "^3.6.2"
+  }
+}
